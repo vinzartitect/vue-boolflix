@@ -1,0 +1,33 @@
+[
+  {
+    "adult": false,
+    "backdrop_path": "/nvxrQQspxmSblCYDtvDAbVFX8Jt.jpg",
+    "genre_ids": [35, 18, 878],
+    "id": 646380,
+    "original_language": "en",
+    "original_title": "Don't Look Up",
+    "overview": "La dottoressa Kate Dibiasky, tirocinante presso un osservatorio astronomico, scopre che un bolide spaziale è diretto contro la Terra e la colpirà in sei mesi. Insieme al dottor Randall Mindy parte per un enorme tour mediatico per avvisare l'umanità della minaccia.",
+    "popularity": 168.658,
+    "poster_path": "/1U0P7NfbtHcw5LbwTxxmqsYqQD7.jpg",
+    "release_date": "2021-12-07",
+    "title": "Don't Look Up",
+    "video": false,
+    "vote_average": 7.2,
+    "vote_count": 5263
+  },
+  {
+    "backdrop_path": "/5BMwFwNzSidVYArn561acqtktxv.jpg",
+    "first_air_date": "2005-09-19",
+    "genre_ids": [35],
+    "id": 1100,
+    "name": "How I Met Your Mother",
+    "origin_country": ["US"],
+    "original_language": "en",
+    "original_name": "How I Met Your Mother",
+    "overview": "How I Met Your Mother racconta la storia di Ted Mosby, un architetto di successo che un bel giorno, nel 2030, decide di raccontare ai suoi figli come ha conosciuto la loro mamma.\n\nInsieme agli amici Lily e Marshall, Barney e Robin, Ted ha vissuto molteplici ed esilaranti avventure quotidiane che racconta alla sua famiglia e a noi, con toni leggeri ma ricchi di piccole e grandi verità sulla vita, l’amicizia, l’amore.",
+    "popularity": 249.339,
+    "poster_path": "/dvxSvr6OmYGvvt8Z1VdBlPfL1Lf.jpg",
+    "vote_average": 8.2,
+    "vote_count": 3321
+  }
+]
