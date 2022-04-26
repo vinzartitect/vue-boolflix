@@ -1,16 +1,22 @@
 <template>
   <div class="main">
-    <MoviesCard
-      v-for="(movie, index) in moviesRes"
-      :key="index"
-      :movie="movie"
-    />
+    <h2>Films</h2>
+    <div class="main_cards">
+      <MoviesCard
+        v-for="(movie, index) in moviesRes"
+        :key="index"
+        :movie="movie"
+      />
+    </div>
 
-    <TvshowsCard
-      v-for="(tvshow, index) in tvshowsRes"
-      :key="index"
-      :tvshow="tvshow"
-    />
+    <h2>Series</h2>
+    <div class="main_cards">
+      <TvshowsCard
+        v-for="(tvshow, index) in tvshowsRes"
+        :key="index"
+        :tvshow="tvshow"
+      />
+    </div>
   </div>
 </template>
 
@@ -35,8 +41,17 @@ export default {
 .main {
   width: 90%;
   margin: 0 auto;
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
+
+  h2 {
+    margin: 20px 0 10px 0;
+    color: white;
+  }
+
+  .main_cards {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 100px);
+  }
 }
 </style>
