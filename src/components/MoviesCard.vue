@@ -2,8 +2,8 @@
   <div class="card_movie">
     <img class="poster" :src="getPoster()" alt="" />
     <div class="info_card">
-      <h3>Titolo: {{ movie.title }}</h3>
-      <h3>Titolo originale: {{ movie.original_title }}</h3>
+      <h4>Titolo: {{ movie.title }}</h4>
+      <h4>Titolo originale: {{ movie.original_title }}</h4>
       <div>
         <h5>Lingua:</h5>
         <span
@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       // variabile della locandina tipo sconosciuta
-      posterUnknown: "../assets/posterunknown.png",
+      posterUnknown: require("../assets/posterunknown.png"),
     };
   },
   methods: {
@@ -70,7 +70,7 @@ export default {
   }
 
   .info_card {
-    padding: 30px;
+    padding: 10px;
     background: black;
     position: absolute;
     top: 0;
