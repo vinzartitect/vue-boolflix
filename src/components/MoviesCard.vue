@@ -1,6 +1,6 @@
 <template>
   <div class="card_movie">
-    <img class="poster" src="getPoster()" alt="" />
+    <img class="poster" :src="getPoster()" alt="" />
     <div class="info_card">
       <h3>Titolo: {{ movie.title }}</h3>
       <h3>Titolo originale: {{ movie.original_title }}</h3>
