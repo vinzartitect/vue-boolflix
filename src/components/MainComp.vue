@@ -40,6 +40,7 @@ export default {
 <style lang="scss" scoped>
 .main {
   width: 90%;
+  min-height: calc(100vh - 100px);
   margin: 0 auto;
 
   h2 {
@@ -51,7 +52,6 @@ export default {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    min-height: calc(100vh - 100px);
   }
 }
 </style>
