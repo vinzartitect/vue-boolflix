@@ -20,7 +20,15 @@
         </span>
       </div>
 
-      <h5>Voto: {{ movie.vote_average }}</h5>
+      <p class="star-vb">
+        <!-- {{ movie.vote_average }} -->
+        <i
+          v-for="i in 5"
+          :key="i"
+          class="fa-star"
+          :class="i <= stars() ? 'fa-solid' : 'fa-regular'"
+        ></i>
+      </p>
     </div>
   </div>
 </template>
@@ -44,6 +52,11 @@ export default {
       } else {
         return "https://image.tmdb.org/t/p/original" + this.movie.poster_path;
       }
+    },
+
+    stars() {
+      const votoArrotondato = Math.ceil(this.movie.vote_average / 2);
+      return votoArrotondato;
     },
   },
 };
@@ -95,6 +108,9 @@ export default {
   }
   .flag-unknown {
     background-image: url("../assets/unknown-flag.png");
+  }
+  .star-vb {
+    color: yellow;
   }
 }
 </style>
